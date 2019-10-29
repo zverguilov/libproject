@@ -1,0 +1,22 @@
+@media (min-width: 768px) {
+  mat-toolbar {
+    position: fixed;
+    top: 0;
+    background: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.7));
+
+    mat-toolbar-row {
+      a {
+        color: #fff;
+        text-decoration: none;
+        margin: 0 1rem;
+      }
+
+      .auth {
+        display: flex;
+        justify-content: flex-end;
+        width: 100%;
+      }
+    }
+  }
+}
+
